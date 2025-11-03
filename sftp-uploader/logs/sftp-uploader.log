@@ -1,0 +1,128 @@
+2025-11-02 20:08:05,827 [main] INFO  c.e.s.SftpUploaderApplication - Starting SftpUploaderApplication using Java 21.0.7 with PID 3848 (C:\dev\sftp-uploader\target\classes started by satya in C:\dev\sftp-uploader)
+2025-11-02 20:08:05,830 [main] INFO  c.e.s.SftpUploaderApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-02 20:08:06,599 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-02 20:08:06,606 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-02 20:08:06,611 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-02 20:08:06,614 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-11-02 20:08:06,657 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-02 20:08:06,657 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 789 ms
+2025-11-02 20:08:07,015 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-02 20:08:07,031 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-11-02 20:08:07,036 [main] INFO  c.e.s.SftpUploaderApplication - Started SftpUploaderApplication in 1.589 seconds (process running for 1.808)
+2025-11-02 20:08:22,598 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-02 20:08:22,598 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-02 20:08:22,598 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-11-02 20:08:22,677 [http-nio-8080-exec-1] INFO  c.e.sftpuploader.service.SftpService - Starting large file upload to SFTP - File: test.txt
+2025-11-02 20:08:22,681 [http-nio-8080-exec-1] INFO  c.e.sftpuploader.service.SftpService - Connecting to SFTP server: localhost:2222
+2025-11-02 20:08:23,047 [http-nio-8080-exec-1] INFO  c.e.sftpuploader.service.SftpService - Starting file transfer to: /upload/fraud/test.txt
+2025-11-02 20:08:23,048 [http-nio-8080-exec-1] INFO  c.e.s.s.TransferProgressMonitor - Starting transfer of test.txt - Total size: -1 B
+2025-11-02 20:08:23,052 [http-nio-8080-exec-1] INFO  c.e.s.s.TransferProgressMonitor - Transfer completed for test.txt - Total: 114 B - Avg Speed: 0.0 MB/s - Duration: 0.0 seconds
+2025-11-02 20:08:23,054 [http-nio-8080-exec-1] INFO  c.e.sftpuploader.service.SftpService - File transfer completed, setting permissions for: test.txt
+2025-11-02 20:08:23,059 [http-nio-8080-exec-1] INFO  c.e.sftpuploader.service.SftpService - Upload completed successfully for file: test.txt
+2025-11-02 20:08:55,379 [http-nio-8080-exec-6] INFO  c.e.sftpuploader.service.SftpService - Starting large file upload to SFTP - File: test.zip
+2025-11-02 20:08:55,379 [http-nio-8080-exec-6] INFO  c.e.sftpuploader.service.SftpService - Connecting to SFTP server: localhost:2222
+2025-11-02 20:08:55,614 [http-nio-8080-exec-6] INFO  c.e.sftpuploader.service.SftpService - Starting file transfer to: /upload/test.zip
+2025-11-02 20:08:55,615 [http-nio-8080-exec-6] INFO  c.e.s.s.TransferProgressMonitor - Starting transfer of test.zip - Total size: -1 B
+2025-11-02 20:08:55,619 [http-nio-8080-exec-6] INFO  c.e.s.s.TransferProgressMonitor - Transfer completed for test.zip - Total: 209 B - Avg Speed: 0.1 MB/s - Duration: 0.0 seconds
+2025-11-02 20:08:55,620 [http-nio-8080-exec-6] INFO  c.e.sftpuploader.service.SftpService - File transfer completed, setting permissions for: test.zip
+2025-11-02 20:08:55,623 [http-nio-8080-exec-6] INFO  c.e.sftpuploader.service.SftpService - Upload completed successfully for file: test.zip
+2025-11-02 20:10:14,761 [main] INFO  c.e.s.SftpUploaderApplication - Starting SftpUploaderApplication using Java 21.0.7 with PID 10828 (C:\dev\sftp-uploader\target\classes started by satya in C:\dev\sftp-uploader)
+2025-11-02 20:10:14,763 [main] INFO  c.e.s.SftpUploaderApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-02 20:10:15,497 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-02 20:10:15,503 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-02 20:10:15,506 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-02 20:10:15,507 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-11-02 20:10:15,554 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-02 20:10:15,554 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 748 ms
+2025-11-02 20:10:15,922 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-02 20:10:15,939 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-11-02 20:10:15,945 [main] INFO  c.e.s.SftpUploaderApplication - Started SftpUploaderApplication in 1.596 seconds (process running for 1.837)
+2025-11-02 20:10:56,972 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-02 20:10:56,974 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-02 20:10:56,976 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 2 ms
+2025-11-02 20:10:57,354 [http-nio-8080-exec-1] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 306 ms
+2025-11-02 20:13:36,102 [http-nio-8080-exec-5] INFO  c.e.sftpuploader.service.SftpService - Starting large file upload to SFTP - File: test.txt
+2025-11-02 20:13:36,102 [http-nio-8080-exec-5] INFO  c.e.sftpuploader.service.SftpService - Connecting to SFTP server: localhost:2222
+2025-11-02 20:13:50,262 [http-nio-8080-exec-7] INFO  c.e.sftpuploader.service.SftpService - Starting large file upload to SFTP - File: test.txt
+2025-11-02 20:13:50,262 [http-nio-8080-exec-7] INFO  c.e.sftpuploader.service.SftpService - Connecting to SFTP server: localhost:2222
+2025-11-02 20:13:50,497 [http-nio-8080-exec-7] INFO  c.e.sftpuploader.service.SftpService - Starting file transfer to: /upload/test.txt
+2025-11-02 20:13:50,498 [http-nio-8080-exec-7] INFO  c.e.s.s.TransferProgressMonitor - Starting transfer of test.txt - Total size: -1 B
+2025-11-02 20:13:50,501 [http-nio-8080-exec-7] INFO  c.e.s.s.TransferProgressMonitor - Transfer completed for test.txt - Total: 114 B - Avg Speed: 0.0 MB/s - Duration: 0.0 seconds
+2025-11-02 20:13:50,503 [http-nio-8080-exec-7] INFO  c.e.sftpuploader.service.SftpService - File transfer completed, setting permissions for: test.txt
+2025-11-02 20:13:50,507 [http-nio-8080-exec-7] INFO  c.e.sftpuploader.service.SftpService - Upload completed successfully for file: test.txt
+2025-11-02 20:14:35,642 [http-nio-8080-exec-9] INFO  c.e.sftpuploader.service.SftpService - Starting large file upload to SFTP - File: test.zip
+2025-11-02 20:14:35,645 [http-nio-8080-exec-9] INFO  c.e.sftpuploader.service.SftpService - Connecting to SFTP server: localhost:2222
+2025-11-02 20:15:05,713 [http-nio-8080-exec-10] INFO  c.e.sftpuploader.service.SftpService - Starting large file upload to SFTP - File: test.zip
+2025-11-02 20:15:05,713 [http-nio-8080-exec-10] INFO  c.e.sftpuploader.service.SftpService - Connecting to SFTP server: localhost:2222
+2025-11-02 20:15:26,706 [http-nio-8080-exec-1] INFO  c.e.sftpuploader.service.SftpService - Starting large file upload to SFTP - File: test.zip
+2025-11-02 20:15:26,712 [http-nio-8080-exec-1] INFO  c.e.sftpuploader.service.SftpService - Connecting to SFTP server: localhost:2222
+2025-11-02 20:15:26,934 [http-nio-8080-exec-1] INFO  c.e.sftpuploader.service.SftpService - Starting file transfer to: /upload/test.zip
+2025-11-02 20:15:26,934 [http-nio-8080-exec-1] INFO  c.e.s.s.TransferProgressMonitor - Starting transfer of test.zip - Total size: -1 B
+2025-11-02 20:15:26,938 [http-nio-8080-exec-1] INFO  c.e.s.s.TransferProgressMonitor - Transfer completed for test.zip - Total: 209 B - Avg Speed: 0.1 MB/s - Duration: 0.0 seconds
+2025-11-02 20:15:26,939 [http-nio-8080-exec-1] INFO  c.e.sftpuploader.service.SftpService - File transfer completed, setting permissions for: test.zip
+2025-11-02 20:15:26,943 [http-nio-8080-exec-1] INFO  c.e.sftpuploader.service.SftpService - Upload completed successfully for file: test.zip
+2025-11-02 20:25:42,564 [main] INFO  c.e.s.SftpUploaderApplication - Starting SftpUploaderApplication using Java 21.0.7 with PID 18168 (C:\dev\sftp-uploader\target\classes started by satya in C:\dev\sftp-uploader)
+2025-11-02 20:25:42,566 [main] INFO  c.e.s.SftpUploaderApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-02 20:25:43,279 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-02 20:25:43,279 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-02 20:25:43,289 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-02 20:25:43,289 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-11-02 20:25:43,337 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-02 20:25:43,337 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 709 ms
+2025-11-02 20:25:43,682 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-02 20:25:43,699 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-11-02 20:25:43,704 [main] INFO  c.e.s.SftpUploaderApplication - Started SftpUploaderApplication in 1.544 seconds (process running for 1.779)
+2025-11-02 20:25:57,025 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-02 20:25:57,026 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-02 20:25:57,026 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-11-02 20:25:57,458 [http-nio-8080-exec-10] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 184 ms
+2025-11-02 20:26:36,483 [http-nio-8080-exec-7] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.jcraft.jsch.JSchException: java.net.ConnectException: Connection refused: connect] with root cause
+java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:589)
+	at java.base/sun.nio.ch.Net.connect(Net.java:578)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/java.net.Socket.connect(Socket.java:686)
+	at java.base/java.net.Socket.<init>(Socket.java:555)
+	at java.base/java.net.Socket.<init>(Socket.java:324)
+	at com.jcraft.jsch.Util$1.run(Util.java:362)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-11-02 20:26:56,433 [http-nio-8080-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: com.jcraft.jsch.JSchException: java.net.ConnectException: Connection refused: connect] with root cause
+java.net.ConnectException: Connection refused: connect
+	at java.base/sun.nio.ch.Net.connect0(Native Method)
+	at java.base/sun.nio.ch.Net.connect(Net.java:589)
+	at java.base/sun.nio.ch.Net.connect(Net.java:578)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:583)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:751)
+	at java.base/java.net.Socket.connect(Socket.java:686)
+	at java.base/java.net.Socket.<init>(Socket.java:555)
+	at java.base/java.net.Socket.<init>(Socket.java:324)
+	at com.jcraft.jsch.Util$1.run(Util.java:362)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-11-02 20:31:31,646 [main] INFO  c.e.s.SftpUploaderApplication - Starting SftpUploaderApplication using Java 21.0.7 with PID 3848 (C:\dev\sftp-uploader\target\classes started by satya in C:\dev\sftp-uploader)
+2025-11-02 20:31:31,648 [main] INFO  c.e.s.SftpUploaderApplication - No active profile set, falling back to 1 default profile: "default"
+2025-11-02 20:31:32,292 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2025-11-02 20:31:32,292 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2025-11-02 20:31:32,303 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2025-11-02 20:31:32,304 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.16]
+2025-11-02 20:31:32,343 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2025-11-02 20:31:32,349 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 672 ms
+2025-11-02 20:31:32,670 [main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2025-11-02 20:31:32,687 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path ''
+2025-11-02 20:31:32,687 [main] INFO  c.e.s.SftpUploaderApplication - Started SftpUploaderApplication in 1.422 seconds (process running for 1.649)
+2025-11-02 20:31:48,811 [http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-11-02 20:31:48,811 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2025-11-02 20:31:48,811 [http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2025-11-02 20:31:49,225 [http-nio-8080-exec-5] INFO  o.s.api.AbstractOpenApiResource - Init duration for springdoc-openapi is: 172 ms
+2025-11-02 20:33:38,739 [http-nio-8080-exec-9] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.multipart.support.MissingServletRequestPartException: Required part 'file' is not present.]
+2025-11-02 20:34:13,870 [http-nio-8080-exec-4] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver - Resolved [org.springframework.web.multipart.support.MissingServletRequestPartException: Required part 'file' is not present.]
+2025-11-02 20:34:52,012 [http-nio-8080-exec-8] INFO  c.e.sftpuploader.service.SftpService - Starting large file upload to SFTP - File: test2.txt
+2025-11-02 20:34:52,015 [http-nio-8080-exec-8] INFO  c.e.sftpuploader.service.SftpService - Connecting to SFTP server: localhost:2222
+2025-11-02 20:34:52,224 [http-nio-8080-exec-8] INFO  c.e.sftpuploader.service.SftpService - Starting file transfer to: /upload/test2.txt
+2025-11-02 20:34:52,225 [http-nio-8080-exec-8] INFO  c.e.s.s.TransferProgressMonitor - Starting transfer of test2.txt - Total size: -1 B
+2025-11-02 20:34:52,229 [http-nio-8080-exec-8] INFO  c.e.s.s.TransferProgressMonitor - Transfer completed for test2.txt - Total: 114 B - Avg Speed: 0.0 MB/s - Duration: 0.0 seconds
+2025-11-02 20:34:52,231 [http-nio-8080-exec-8] INFO  c.e.sftpuploader.service.SftpService - File transfer completed, setting permissions for: test2.txt
+2025-11-02 20:34:52,236 [http-nio-8080-exec-8] INFO  c.e.sftpuploader.service.SftpService - Upload completed successfully for file: test2.txt

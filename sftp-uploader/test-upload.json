@@ -1,0 +1,8 @@
+{
+    "host":  "localhost",
+    "username":  "root",
+    "password":  "password",
+    "remoteDir":  "/upload",
+    "filename":  "test.txt",
+    "content":  "Hello from SFTP uploader test!"
+}
